@@ -1378,7 +1378,7 @@ if (reversed == null) { reversed = false; }
 	this.shape.graphics.f().s("#8D8B00").ss(1,1,0,3).p("A3WzcMAutAAAMAAAAm5MgutAAAg");
 	this.shape.setTransform(150,125);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).to({_off:true},144).wait(226));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(370));
 
 	// HEAD3a
 	this.instance = new lib.HEAD3a();
